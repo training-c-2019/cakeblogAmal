@@ -1,0 +1,1314 @@
+2019-06-24 13:10:03 Error: [MissingControllerException] Controller class CakeblpgController could not be found.
+Exception Attributes: array (
+  'class' => 'CakeblpgController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/cakeblpg
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-06-24 13:11:17 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [1045] Access denied for user \'root\'@\'localhost\' (using password: NO)',
+  'enabled' => true,
+)
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(278): Mysql->connect()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3659): ConnectionManager::getDataSource('default')
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(1162): Model->setDataSource('default')
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3686): Model->setSource('posts')
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): Model->getDataSource()
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#7 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(6): Model->find('all')
+#8 [internal function]: PostsController->index()
+#9 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2019-06-24 13:22:00 Error: [MissingActionException] Action PostsController::ثيهف() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'ثيهف',
+)
+Request URL: /cakephp/posts/%D8%AB%D9%8A%D9%87%D9%81
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-06-24 13:22:08 Error: [MissingActionException] Action PostsController::edir() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'edir',
+)
+Request URL: /cakephp/posts/edir
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-06-24 13:22:13 Error: [NotFoundException] Invalid post
+Request URL: /cakephp/posts/edit
+Stack Trace:
+#0 [internal function]: PostsController->edit()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-25 06:10:29 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-06-25 06:11:35 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-06-25 06:11:35 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-06-25 06:11:36 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-06-25 06:11:36 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-06-25 06:11:37 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-06-25 06:11:37 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-06-25 06:11:37 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-06-25 06:11:38 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/users
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-06-25 06:12:24 Error: Fatal Error (64): Cannot redeclare UsersController::beforeFilter() in [/Applications/MAMP/htdocs/cakephp/app/Controller/UsersController.php, line 76]
+2019-06-25 06:12:24 Error: [FatalErrorException] Cannot redeclare UsersController::beforeFilter()
+Request URL: /cakephp/users
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/Applications/M...', 76)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Core/App.php(970): ErrorHandler::handleError(64, 'Cannot redeclar...', '/Applications/M...', 76, Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2019-06-25 13:19:20 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/post
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-06-25 13:28:40 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Post.postId' in 'on clause'
+Request URL: /cakephp/posts/view/5
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Post`.`...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Post`.`...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `Post`.`...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('first', Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(636): Model->find('first', Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(834): DboSource->query('findById', Array, Object(Post))
+#8 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(14): Model->__call('findById', Array)
+#9 [internal function]: PostsController->view('5')
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-06-26 06:41:09 Error: [MissingControllerException] Controller class CoomentController could not be found.
+Exception Attributes: array (
+  'class' => 'CoomentController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/cooment
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-06-26 06:41:19 Error: [MissingControllerException] Controller class CommentController could not be found.
+Exception Attributes: array (
+  'class' => 'CommentController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/comment
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-06-26 06:41:22 Error: [MissingControllerException] Controller class CommentController could not be found.
+Exception Attributes: array (
+  'class' => 'CommentController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/comment
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-06-26 06:41:26 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-26 06:42:13 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-26 06:57:27 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-26 07:03:14 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-26 07:03:16 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-26 07:03:16 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-26 07:03:16 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-26 07:05:08 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-26 07:05:09 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-26 07:05:10 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-26 07:05:10 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-26 07:05:10 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-26 07:05:29 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-26 07:07:05 Error: [MissingControllerException] Controller class PhpmyadminController could not be found.
+Exception Attributes: array (
+  'class' => 'PhpmyadminController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/phpmyadmin
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-06-26 07:08:28 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-26 07:08:29 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-26 07:08:29 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-26 07:08:30 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-26 07:08:30 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-26 07:08:30 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-26 07:08:30 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-26 07:08:31 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-26 07:08:31 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-26 07:08:31 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-26 07:08:31 Error: [Error] Call to a member function find() on null
+Request URL: /cakephp/comments
+Stack Trace:
+#0 [internal function]: CommentsController->index()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-26 07:12:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'on clause'
+Request URL: /cakephp/comments
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Comment), Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp/app/Controller/CommentsController.php(6): Model->find('all')
+#7 [internal function]: CommentsController->index()
+#8 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2019-06-26 07:13:03 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'on clause'
+Request URL: /cakephp/comments
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Comment), Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp/app/Controller/CommentsController.php(6): Model->find('all')
+#7 [internal function]: CommentsController->index()
+#8 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2019-06-26 07:13:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'on clause'
+Request URL: /cakephp/comments
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Comment), Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp/app/Controller/CommentsController.php(6): Model->find('all')
+#7 [internal function]: CommentsController->index()
+#8 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2019-06-26 07:13:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'on clause'
+Request URL: /cakephp/comments
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Comment), Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp/app/Controller/CommentsController.php(6): Model->find('all')
+#7 [internal function]: CommentsController->index()
+#8 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2019-06-26 07:13:10 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'on clause'
+Request URL: /cakephp/comments
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Comment), Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp/app/Controller/CommentsController.php(6): Model->find('all')
+#7 [internal function]: CommentsController->index()
+#8 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2019-06-26 07:56:35 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'on clause'
+Request URL: /cakephp/comments
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1226): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Comment), Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#6 /Applications/MAMP/htdocs/cakephp/app/Controller/CommentsController.php(6): Model->find('all')
+#7 [internal function]: CommentsController->index()
+#8 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#9 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#11 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2019-06-26 08:24:48 Error: [MissingActionException] Action CommentsController::ad() could not be found.
+Exception Attributes: array (
+  'controller' => 'CommentsController',
+  'action' => 'ad',
+)
+Request URL: /cakephp/comments/ad
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-06-26 10:36:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.postId' in 'field list'
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1564): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1398): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1257): DboSource->queryAssociation(Object(Post), Object(Post), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(6): Model->find('all')
+#9 [internal function]: PostsController->index()
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-06-26 10:36:47 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/post
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-06-26 10:36:53 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.postId' in 'field list'
+Request URL: /cakephp/posts/view/5
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1564): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1398): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1257): DboSource->queryAssociation(Object(Post), Object(Post), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('first', Array)
+#8 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(636): Model->find('first', Array)
+#9 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(834): DboSource->query('findById', Array, Object(Post))
+#10 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(14): Model->__call('findById', Array)
+#11 [internal function]: PostsController->view('5')
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#13 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#14 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#15 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2019-06-26 10:36:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.postId' in 'field list'
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1564): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1398): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1257): DboSource->queryAssociation(Object(Post), Object(Post), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(6): Model->find('all')
+#9 [internal function]: PostsController->index()
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-06-26 10:43:01 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'field list'
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1564): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1398): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1257): DboSource->queryAssociation(Object(Post), Object(Post), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(6): Model->find('all')
+#9 [internal function]: PostsController->index()
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-06-26 10:43:01 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'field list'
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1564): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1398): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1257): DboSource->queryAssociation(Object(Post), Object(Post), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(6): Model->find('all')
+#9 [internal function]: PostsController->index()
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-06-26 10:43:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'field list'
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1564): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1398): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1257): DboSource->queryAssociation(Object(Post), Object(Post), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(6): Model->find('all')
+#9 [internal function]: PostsController->index()
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-06-26 10:43:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'field list'
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1564): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1398): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1257): DboSource->queryAssociation(Object(Post), Object(Post), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(6): Model->find('all')
+#9 [internal function]: PostsController->index()
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-06-26 10:43:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'field list'
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1564): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1398): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1257): DboSource->queryAssociation(Object(Post), Object(Post), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(6): Model->find('all')
+#9 [internal function]: PostsController->index()
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-06-26 10:43:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'field list'
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1564): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1398): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1257): DboSource->queryAssociation(Object(Post), Object(Post), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(6): Model->find('all')
+#9 [internal function]: PostsController->index()
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-06-26 10:46:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'field list'
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1564): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1398): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1257): DboSource->queryAssociation(Object(Post), Object(Post), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(6): Model->find('all')
+#9 [internal function]: PostsController->index()
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-06-26 10:51:52 Error: [PDOException] SQLSTATE[HY000]: General error: 1364 Field 'post_id' doesn't have a default value
+Request URL: /cakephp/Comments/add
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('INSERT INTO `ca...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1132): DboSource->execute('INSERT INTO `ca...')
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(1942): DboSource->create(Object(Comment), Array, Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(1760): Model->_doSave(Array, Array)
+#5 /Applications/MAMP/htdocs/cakephp/app/Controller/CommentsController.php(26): Model->save(Array)
+#6 [internal function]: CommentsController->add()
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(CommentsController), Array)
+#8 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#10 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2019-06-26 10:52:37 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'isOwnedBy' at line 1
+Request URL: /cakephp/Comments/edit/8
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('isOwnedBy', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('isOwnedBy', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(648): DboSource->fetchAll('isOwnedBy', Array, Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(834): DboSource->query('isOwnedBy', Array, Object(Comment))
+#5 /Applications/MAMP/htdocs/cakephp/app/Controller/CommentsController.php(82): Model->__call('isOwnedBy', Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Component/Auth/ControllerAuthorize.php(63): CommentsController->isAuthorized(Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Component/AuthComponent.php(470): ControllerAuthorize->authorize(Array, Object(CakeRequest))
+#8 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Component/AuthComponent.php(311): AuthComponent->isAuthorized(Array)
+#9 /Applications/MAMP/htdocs/cakephp/lib/Cake/Utility/ObjectCollection.php(129): AuthComponent->startup(Object(CommentsController))
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Event/CakeEventManager.php(244): ObjectCollection->trigger('startup')
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(683): CakeEventManager->dispatch(Object(CakeEvent))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#13 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#14 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2019-06-26 12:20:54 Error: [MissingControllerException] Controller class حخسفسController could not be found.
+Exception Attributes: array (
+  'class' => 'حخسفسController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/%D8%AD%D8%AE%D8%B3%D9%81%D8%B3
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-06-26 12:20:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'field list'
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1564): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1398): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1257): DboSource->queryAssociation(Object(Post), Object(Post), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(6): Model->find('all')
+#9 [internal function]: PostsController->index()
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-06-26 12:21:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'field list'
+Request URL: /cakephp/posts/index
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1564): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1398): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1257): DboSource->queryAssociation(Object(Post), Object(Post), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(6): Model->find('all')
+#9 [internal function]: PostsController->index()
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-06-26 12:21:09 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'field list'
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1564): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1398): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1257): DboSource->queryAssociation(Object(Post), Object(Post), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(6): Model->find('all')
+#9 [internal function]: PostsController->index()
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-06-27 05:52:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'field list'
+Request URL: /cakephp/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1564): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1398): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1257): DboSource->queryAssociation(Object(Post), Object(Post), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(6): Model->find('all')
+#9 [internal function]: PostsController->index()
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-06-27 05:56:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'field list'
+Request URL: /cakephp/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1564): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1398): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1257): DboSource->queryAssociation(Object(Post), Object(Post), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(6): Model->find('all')
+#9 [internal function]: PostsController->index()
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-06-27 05:57:02 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'field list'
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1564): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1398): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1257): DboSource->queryAssociation(Object(Post), Object(Post), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(6): Model->find('all')
+#9 [internal function]: PostsController->index()
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-06-27 05:57:43 Error: [NotFoundException] Invalid post
+Request URL: /cakephp/Posts/view
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-27 06:06:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'field list'
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1564): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1398): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1257): DboSource->queryAssociation(Object(Post), Object(Post), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(6): Model->find('all')
+#9 [internal function]: PostsController->index()
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-06-27 06:10:25 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'field list'
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1564): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1398): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1257): DboSource->queryAssociation(Object(Post), Object(Post), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(9): Model->find('all')
+#9 [internal function]: PostsController->index()
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-06-27 06:10:26 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'field list'
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1564): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1398): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1257): DboSource->queryAssociation(Object(Post), Object(Post), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(9): Model->find('all')
+#9 [internal function]: PostsController->index()
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-06-27 06:10:26 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'field list'
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1564): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1398): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1257): DboSource->queryAssociation(Object(Post), Object(Post), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(9): Model->find('all')
+#9 [internal function]: PostsController->index()
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-06-27 06:10:26 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'field list'
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1564): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1398): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1257): DboSource->queryAssociation(Object(Post), Object(Post), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(9): Model->find('all')
+#9 [internal function]: PostsController->index()
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-06-27 06:10:27 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'field list'
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1564): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1398): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1257): DboSource->queryAssociation(Object(Post), Object(Post), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(9): Model->find('all')
+#9 [internal function]: PostsController->index()
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-06-27 06:10:27 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'field list'
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1564): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1398): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1257): DboSource->queryAssociation(Object(Post), Object(Post), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(9): Model->find('all')
+#9 [internal function]: PostsController->index()
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-06-27 06:10:27 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Comment.post_id' in 'field list'
+Request URL: /cakephp/posts
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(502): PDOStatement->execute(Array)
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(468): DboSource->_execute('SELECT `Comment...', Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(715): DboSource->execute('SELECT `Comment...', Array, Array)
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1564): DboSource->fetchAll('SELECT `Comment...', Array)
+#4 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1398): DboSource->_fetchHasMany(Object(Post), 'SELECT `Comment...', Array)
+#5 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Datasource/DboSource.php(1257): DboSource->queryAssociation(Object(Post), Object(Post), 'hasMany', 'Comment', Array, Array, true, Array, 0, Array)
+#6 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3053): DboSource->read(Object(Post), Array)
+#7 /Applications/MAMP/htdocs/cakephp/lib/Cake/Model/Model.php(3025): Model->_readDataSource('all', Array)
+#8 /Applications/MAMP/htdocs/cakephp/app/Controller/PostsController.php(9): Model->find('all')
+#9 [internal function]: PostsController->index()
+#10 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#11 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#12 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#13 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-06-27 06:12:46 Error: [NotFoundException] Invalid post
+Request URL: /cakephp/Posts/view
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-27 06:19:43 Error: [MissingActionException] Action CommentsController::add_comment() could not be found.
+Exception Attributes: array (
+  'controller' => 'CommentsController',
+  'action' => 'add_comment',
+)
+Request URL: /cakephp/Comments/add_comment/5
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-06-27 06:19:54 Error: [MissingActionException] Action CommentsController::add_comment() could not be found.
+Exception Attributes: array (
+  'controller' => 'CommentsController',
+  'action' => 'add_comment',
+)
+Request URL: /cakephp/Comments/add_comment
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-06-27 06:21:55 Error: [MissingActionException] Action CommentsController::add_comment() could not be found.
+Exception Attributes: array (
+  'controller' => 'CommentsController',
+  'action' => 'add_comment',
+)
+Request URL: /cakephp/Comments/add_comment
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-06-27 06:22:09 Error: [MissingControllerException] Controller class PostdController could not be found.
+Exception Attributes: array (
+  'class' => 'PostdController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/postd
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-06-27 06:22:19 Error: [MissingActionException] Action CommentsController::add_comment() could not be found.
+Exception Attributes: array (
+  'controller' => 'CommentsController',
+  'action' => 'add_comment',
+)
+Request URL: /cakephp/Comments/add_comment/4
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-06-27 06:29:39 Error: [MissingActionException] Action CommentsController::add_comment() could not be found.
+Exception Attributes: array (
+  'controller' => 'CommentsController',
+  'action' => 'add_comment',
+)
+Request URL: /cakephp/Comments/add_comment
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-06-27 06:30:45 Error: [MissingActionException] Action CommentsController::add_comment() could not be found.
+Exception Attributes: array (
+  'controller' => 'CommentsController',
+  'action' => 'add_comment',
+)
+Request URL: /cakephp/Comments/add_comment
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CommentsController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-06-27 06:30:54 Error: [NotFoundException] Invalid post
+Request URL: /cakephp/Posts/view
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-27 06:31:07 Error: [NotFoundException] Invalid post
+Request URL: /cakephp/Posts/view
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-27 06:32:38 Error: [NotFoundException] Invalid post
+Request URL: /cakephp/Posts/view
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-27 06:33:30 Error: [NotFoundException] Invalid post
+Request URL: /cakephp/Posts/view
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-27 06:34:01 Error: [NotFoundException] Invalid post
+Request URL: /cakephp/Posts/view
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-27 06:34:08 Error: [NotFoundException] Invalid post
+Request URL: /cakephp/Posts/view
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-27 06:35:35 Error: [NotFoundException] Invalid post
+Request URL: /cakephp/Posts/view
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-27 06:36:47 Error: [NotFoundException] Invalid post
+Request URL: /cakephp/Posts/view
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-27 06:37:00 Error: [NotFoundException] Invalid post
+Request URL: /cakephp/Posts/view
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-27 06:43:56 Error: [NotFoundException] Invalid post
+Request URL: /cakephp/Posts/view
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-27 06:53:13 Error: [NotFoundException] Invalid post
+Request URL: /cakephp/Posts/view
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-27 06:55:06 Error: [MissingActionException] Action PostsController::post() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'post',
+)
+Request URL: /cakephp/Posts/post
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-06-29 23:24:58 Error: [NotFoundException] Invalid post
+Request URL: /cakephp/Posts/view
+Stack Trace:
+#0 [internal function]: PostsController->view()
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Controller/Controller.php(499): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#2 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#4 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-06-30 07:03:24 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/post/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-06-30 07:03:30 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/Post/
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-06-30 07:03:49 Error: [MissingActionException] Action PostsController::id() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'id',
+)
+Request URL: /cakephp/Posts/id
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-06-30 07:03:58 Error: [MissingActionException] Action PostsController::id() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'id',
+)
+Request URL: /cakephp/Posts/id
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-06-30 07:04:32 Error: [MissingControllerException] Controller class PhpmyadminController could not be found.
+Exception Attributes: array (
+  'class' => 'PhpmyadminController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/phpmyadmin
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-06-30 07:04:45 Error: [MissingControllerException] Controller class MyadminphpController could not be found.
+Exception Attributes: array (
+  'class' => 'MyadminphpController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/myadminphp
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-06-30 07:05:28 Error: [MissingActionException] Action PostsController::id() could not be found.
+Exception Attributes: array (
+  'controller' => 'PostsController',
+  'action' => 'id',
+)
+Request URL: /cakephp/Posts/id
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /Applications/MAMP/htdocs/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest))
+#2 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-06-30 07:06:44 Error: [MissingControllerException] Controller class GetPostController could not be found.
+Exception Attributes: array (
+  'class' => 'GetPostController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/getPost/id
+Stack Trace:
+#0 /Applications/MAMP/htdocs/cakephp/app/webroot/index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
